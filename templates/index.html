@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+    <h2>Trigonometric Calculator</h2> 
+
+    <form method="POST">
+
+        <input type="text" name="operation" required placeholder="Enter Operator"><br>
+
+        <input type="text" name="number" required placeholder="Enter Number"><br>
+
+        <button type="submit">Calculate</button> <br> 
+
+        <input type="text" value="{{ result }}" readonly id="result">
+    </form>
+    </div>
+</body>
+</html>
